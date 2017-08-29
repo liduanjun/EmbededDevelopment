@@ -8,30 +8,29 @@ PCB布线的软件，流行于广大的高校之中。
 创建项目：
 > File -> New -> Project -> PCB Project
 ![PCB Project](resource/images/ADCreateProject.png)
-![PCB Project](resource/images/ad-create-project.png)
 
 ## Schematic Designer 原理图绘制
 
 ### Schematic Libray 原理图库
 > File -> New -> Libray -> Schematic Libray
-![Schematic Libray](resource/images/ad-schlib.png)
+![Schematic Libray](resource/images/ADSchlib.png)
 
 ### Schematic 原理图
 > File -> New -> Schematic
-![Schematic](resource/images/ad-sch.png)
+![Schematic](resource/images/ADSch.png)
 
 ## PCB Layout 印制电路板布线
 
 ### PCB Libray 印制电路板库
 > File -> New -> Libray -> PCB Libray
-![PCB Libray](resource/images/ad-pcblib.png)
+![PCB Libray](resource/images/ADPcblib.png)
 
 PCB Libray 中包含着 Electronic components(电子元器件) 的 footprint 信息，而 footprint 要根据
-电子元器件的 [Package](Package.md) 封装信息来绘制。
+电子元器件的封装信息来绘制。
 
 ### PCB Layout 印制电路板布线
 > AutoRoute -> All
-![AutoRoute](resource/images/ad-route.png)
+![AutoRoute](resource/images/ADRoute.png)
 
 ## 后期工作
 
@@ -41,14 +40,14 @@ PCB Libray 中包含着 Electronic components(电子元器件) 的 footprint 信
 
 在打开 .pcb 文件的情况下，
 > File -> Fabrication -> Gerber
-![Gerber](resource/images/ad-gerber.png)
+![Gerber](resource/images/ADGerber.png)
 
 ### 导出元器件
 
 导出元器件，交给采购，购买元器件
 
 > Reports -> Bill of Materials
-![Bill of Materials](resource/images/ad-bom.png)
+![Bill of Materials](resource/images/ADBom.png)
 
 ### 导出原理图
 
@@ -57,7 +56,7 @@ PCB Libray 中包含着 Electronic components(电子元器件) 的 footprint 信
 在打开原理图的情况下：
 
 > File -> Smart PDF
-![Smart PDF](resource/images/ad-pdf.png)
+![Smart PDF](resource/images/ADPdf.png)
 
 ## PCB制作
 
