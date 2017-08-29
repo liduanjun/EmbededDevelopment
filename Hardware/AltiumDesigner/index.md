@@ -7,6 +7,7 @@ PCB布线的软件，流行于广大的高校之中。
 
 创建项目：
 > File -> New -> Project -> PCB Project
+![PCB Project](resource/images/ADCreateProject.png)
 ![PCB Project](resource/images/ad-create-project.png)
 
 ## Schematic Designer 原理图绘制
